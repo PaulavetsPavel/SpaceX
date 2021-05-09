@@ -578,9 +578,9 @@ var vidbg = function (e) { var t = {}; function r(n) { if (t[n]) return t[n].exp
 
 // for vidbg
 var instance = new vidbg('.earth__video', {
-  mp4: '../img/video/world.mp4', // URL or relative path to MP4 video
-  webm: '../img/video/world.webm', // URL or relative path to webm video
-  poster: '../img/video/poster.jpg', // URL or relative path to fallback image
+  mp4: 'img/video/world.mp4', // URL or relative path to MP4 video
+  webm: 'img/video/world.webm', // URL or relative path to webm video
+  poster: 'img/video/poster.jpg', // URL or relative path to fallback image
   overlay: false, // Boolean to display the overlay or not
 });
 

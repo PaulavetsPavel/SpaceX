@@ -130,6 +130,10 @@ body._lock {
   overflow: hidden;
 }
 
+.visualy__hidden {
+  display: none;
+}
+
 /* Формирование страницы (шапка прижата к верху, подвал к низу)*/
 
 .wrapper {
